@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.new-game {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  border: 1px solid #000;
+  font-size: 1.5rem;
+  color: #444;
+  font-weight: bold;
+  cursor: pointer;
+}
+.new-game:hover {
+  background-color: #ddd;
+}
+.platform {
+  display: none;
+  transition: display ease-in 1s;
+  padding: 1rem;
+  gap: 1rem;
+}
+.platform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+}
+/* .card {
+  display: flex;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  color: #444;
+  justify-content: center;
+  align-items: center;
+} */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
